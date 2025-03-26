@@ -56,3 +56,5 @@ def review_detail(request, id):
 
     serializer = ReviewSerializer(review)
     return Response(serializer.data)
+
+
